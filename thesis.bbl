@@ -1,0 +1,23 @@
+\begin{thebibliography}{3}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Bird et~al.(2009)Bird, Klein, \& Loper}]{BirdKleinLoper09}
+Bird, S., Klein, E., \& Loper, E. (2009).
+\newblock {\bf Natural Language Processing with Python: Analyzing Text with the
+  Natural Language Toolkit\/}.
+\newblock Beijing: O'Reilly Media.
+
+\bibitem[{{Google Inc.}(2011)}]{Google2011}
+{Google Inc.} (2011).
+\newblock {\bf About Google Trends\/}.
+ Retrieved May 15, 2012,~from \url{http://www.google.com/trends/}
+
+\bibitem[{Perkins(2010)}]{Perkins2010}
+Perkins, J. (2010).
+\newblock {\bf Python Text Processing with NLTK 2.0 Cookbook\/}.
+\newblock Birmingham, UK: Packt Publishing.
+
+\end{thebibliography}

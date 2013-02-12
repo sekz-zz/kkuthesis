@@ -1,0 +1,258 @@
+\documentclass{kkuthesis}
+\usepackage[thai]{babel}
+\usepackage{psfrag}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{verbatim}
+\usepackage{algorithm}
+\usepackage{paralist}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{url}
+\usepackage{array}
+\usepackage{supertabular}
+\usepackage{lscape}
+\usepackage{ragged2e}
+
+\urlstyle{same}
+
+\setlength\fboxsep{0.5\baselineskip}
+\setlength\fboxrule{0pt}
+\setlength\intextsep{\baselineskip}
+
+% disable hyphenation
+\usepackage[none]{hyphenat}
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+%======================================================
+%%% define required information start here
+
+\titleth{ชื่อวิทยานิพนธ์เป็นภาษาไทย}
+\authorth{นายชื่อนักศึกษา~~นามสกุล} % ชื่อสกุลมีคำนำหน้า
+\authortha{ชื่อนักศึกษา~~นามสกุล} % ชื่อสกุลไม่มีคำนำหน้า
+\academicyearth{2555}
+\degreeth{วิศวกรรมศาสตรมหาบัณฑิต}
+
+\title{English Thesis Title}
+\author{Mr.~Firstname~~Lastname}
+\authora{Firstname~~Lastname}
+\academicyear{2012}
+\degree{Master of Engineering}
+
+\committeechair{Dr.~Committee~~Chair}
+\firstcommittee{Dr.~Fist~~Commitee}
+\secondcommittee{Dr.~Second~~Commitee}
+
+\committeechairth{ประธานกรรมการสอบวิทยานิพนธ์}
+\firstcommitteeth{กรรมการสอบวิทยานิพนธ์คนที่หนึ่ง}
+\secondcommitteeth{กรรมการสอบวิทยานิพนธ์คนที่สอง}
+
+\advisorth{ผศ.ดร.~ชื่อสกุล~~ที่ปรึกษา}
+\advisor{Asst.~Prof.~Dr. Name~~Advisor}
+
+\deanofgs{Assoc.~Prof.~Dr.~Lampang~~Manmart}
+\deanofen{Assoc.~Prof.~Dr.~Somnuk~~Theerakulpisut}
+
+
+\begin{document}
+
+\maketitle 
+ 
+\pagenumbering{roman}
+\pagestyle{empty}
+
+%======================================================
+\begin{abstractth}
+
+\textthai{
+
+บทคัดย่อภาษาไทย...
+
+}
+
+\end{abstractth}
+\newpage
+
+%======================================================
+
+\begin{abstract}
+
+English abstract ...
+
+\end{abstract}
+
+\newpage
+
+%======================================================
+
+\begin{dedication}
+\textbf{\large{The Present Thesis is Greatly Dedicated \\ to My Parents and the Entire Teaching Staff}}
+\end{dedication}
+\newpage
+
+%======================================================
+
+\begin{acknowledge}
+
+
+I would like to express my deepest and sincere gratitude to my adviser, 
+.........  for her kindness in providing
+an opportunity to be her advisee. I also feel appreciate for her valuable supervision,
+suggestions, encouragement, support, and guidance throughout the course of
+my study.
+
+Finally, I would like to express my sincere gratitude and appreciation to my
+dear parents ....... 
+
+\end{acknowledge}
+\newpage
+
+%======================================================
+% generate table of contents, do not need to edit
+
+\pagestyle{myheadings}
+\tableofcontents
+\newpage
+
+\addcontentsline{toc}{chapter}{LIST OF TABLES}
+\listoftables
+\newpage
+
+\addcontentsline{toc}{chapter}{LIST OF FIGURES}
+\listoffigures
+\newpage
+
+\thispagestyle{empty}
+\setkkupagestyle
+
+\floatstyle{boxed} 
+\restylefloat{figure}
+
+% ================================= %
+% separate each chapter to each file
+
+\include{chapter1} % Introduction
+\cleardoublepage
+
+\include{chapter2} % Literture review
+\cleardoublepage
+
+\include{chapter3} % Research methodology
+\cleardoublepage
+
+\include{chapter4} % Results
+\cleardoublepage
+
+\include{chapter5} % Discussion and Conclusion
+\cleardoublepage
+
+% ================================= %
+% ส่วนเอกสารอ้างอิง
+
+\begingroup
+\sloppy
+\RaggedRight %% needs package ragged2e
+\addcontentsline{toc}{chapter}{REFERENCES}
+\bibliographystyle{kkuapa}
+\setlength\bibhang{6ex}
+\setlength\bibsep{0ex}
+\renewcommand\bibname{REFERENCES}
+%\renewcommand{\bibfont}{\sloppy\interlinepenalty 10000\relax}
+\bibliography{REFERENCES}
+\endgroup
+\cleardoublepage
+
+% ================================= %
+% ส่วนภาคผนวก
+\clearpage
+\thispagestyle{empty}
+
+\addcontentsline{toc}{chapter}{APPENDICES}
+\begin{center}
+\null
+\vspace{8cm}
+\textbf{\large{APPENDICES}}
+\end{center}
+\cleardoublepage
+
+\include{appendix} % Appendix 
+\cleardoublepage
+
+
+% ================================= %
+\newpage
+\chapter*{RESEARCH PUBLICATIONS}
+\addcontentsline{toc}{chapter}{RESEARCH PUBLICATIONS}
+\begin{enumerate}
+ { \bf{\item Seksan P}}, Kanda S. Thai Web Forum Topic Suggestion using Thai WordNet Graph Semantic Relations.{\bf{ 33$^{rd}$ KST 2011}}. Proceedings of  Third International Conference on Knowledge and Smart Technologies 2011; 2011: 13-18.
+
+{ \bf{\item Seksan P}}, Kanda S. Thai Word Segmentation Web service. {\bf{SNLP-AOS 2011}}. Proceedings of the International Symposium on Natural Language Processing and Agriculture Ontology Service; 2011: 115-119.
+
+\end{enumerate}
+
+\pagebreak
+
+\cleardoublepage
+
+\begin{figure}[!h]
+\fbox{\includegraphics[scale=0.68]{./publication/kst-1.jpg}}
+\end{figure}
+\pagebreak
+
+\newpage
+\begin{figure}[!h]
+\fbox{\includegraphics[scale=0.68]{./publication/kst-2.jpg}}
+\end{figure}
+\pagebreak
+
+\newpage
+\begin{figure}[!h]
+\fbox{\includegraphics[scale=0.68]{./publication/kst-3.jpg}}
+\end{figure}
+\pagebreak
+
+\newpage
+\begin{figure}[!h]
+\fbox{\includegraphics[scale=0.68]{./publication/kst-4.jpg}}
+\end{figure}
+\pagebreak
+
+\newpage
+\begin{figure}[!h]
+\fbox{\includegraphics[scale=0.68]{./publication/kst-5.jpg}}
+\end{figure}
+\pagebreak
+
+\newpage
+\begin{figure}[!h]
+\fbox{\includegraphics[scale=0.68]{./publication/kst-6.jpg}}
+\end{figure}
+\pagebreak
+
+\cleardoublepage
+
+
+% ================================= %
+\newpage
+\chapter*{VITAE}
+\addcontentsline{toc}{chapter}{VITAE}
+\begin{tabular}{  >{\arraybackslash}m{1.2in}  >{\arraybackslash}m{4in}  }
+Name: & Mr.~Seksan~~Poltree \\
+Place of Birth: & Khon Kaen Province, Thailand. \\
+Address: &  456/1, Klang Muang Road, Muang, Khon Kaen. Thailand 40000. \\
+& \\
+Education: & \\
+2002 - 2005 & Bachelor Degree of Computer Engineering. \\
+& Khon Kaen University, Khon Kaen, Thailand. \\
+\end{tabular}
+
+\pagebreak
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}

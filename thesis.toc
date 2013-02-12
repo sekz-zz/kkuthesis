@@ -1,0 +1,57 @@
+\select@language {english}
+\contentsline {chapter}{ABSTRACT (IN THAI)}{i}
+\select@language {english}
+\select@language {english}
+\contentsline {chapter}{ABSTRACT (IN ENGLISH)}{iii}
+\contentsline {chapter}{DEDICATION}{v}
+\contentsline {chapter}{ACKNOWLEDGEMENTS}{vii}
+\contentsline {chapter}{LIST OF TABLES}{xi}
+\contentsline {chapter}{LIST OF FIGURES}{xiii}
+\contentsline {chapter}{\numberline {I}INTRODUCTION}{1}
+\contentsline {section}{\numberline {1}Background and rationale of the study}{1}
+\contentsline {section}{\numberline {2}The scope and limitation of the study}{1}
+\contentsline {subsection}{\numberline {2.1}}{1}
+\contentsline {subsection}{\numberline {2.2}}{1}
+\contentsline {section}{\numberline {3}Research questions}{1}
+\contentsline {subsection}{\numberline {3.1}}{1}
+\contentsline {subsection}{\numberline {3.2}}{1}
+\contentsline {subsection}{\numberline {3.3}}{1}
+\contentsline {section}{\numberline {4}Objectives of the study}{1}
+\contentsline {subsection}{\numberline {4.1}}{1}
+\contentsline {subsection}{\numberline {4.2}}{1}
+\contentsline {section}{\numberline {5}Anticipated outcomes}{1}
+\contentsline {subsection}{\numberline {5.1}}{1}
+\contentsline {subsection}{\numberline {5.2}}{1}
+\contentsline {chapter}{\numberline {II}LITERATURE REVIEWS }{3}
+\contentsline {section}{\numberline {1}Literature first topic}{3}
+\contentsline {subsection}{\numberline {1.1}Literature second topic}{3}
+\contentsline {subsubsection}{\numberline {1.1.1}Literature third topic}{3}
+\contentsline {subsection}{\numberline {1.2}Literature fourth topic}{4}
+\contentsline {chapter}{\numberline {III}RESEARCH METHODOLOGY}{5}
+\contentsline {section}{\numberline {1}System design overview}{5}
+\contentsline {section}{\numberline {2} Research tools }{5}
+\contentsline {subsection}{\numberline {2.1}First tool}{5}
+\contentsline {subsection}{\numberline {2.2}Second tool}{5}
+\contentsline {subsection}{\numberline {2.3}Third tool}{5}
+\contentsline {subsection}{\numberline {2.4}Fourth tool}{5}
+\contentsline {subsection}{\numberline {2.5} Methodology detail }{6}
+\contentsline {subsubsection}{\numberline {2.5.1} Subsection }{6}
+\contentsline {subsubsection}{\numberline {2.5.2} Subsection }{6}
+\contentsline {subsubsection}{\numberline {2.5.3} Subsection }{6}
+\contentsline {chapter}{\numberline {IV}RESULTS AND DISCUSSION}{7}
+\contentsline {section}{\numberline {1}Evaluation method}{7}
+\contentsline {subsection}{\numberline {1.1} Preparing evaluation survey}{9}
+\contentsline {subsection}{\numberline {1.2} Evaluation Results }{9}
+\contentsline {subsection}{\numberline {1.3}Satisfaction results comparison }{9}
+\contentsline {chapter}{\numberline {V}CONCLUSION}{11}
+\contentsline {section}{\numberline {1}Conclusion}{11}
+\contentsline {section}{\numberline {2}Future work}{11}
+\contentsline {subsection}{\numberline {2.1}}{11}
+\contentsline {subsection}{\numberline {2.2}}{11}
+\contentsline {subsection}{\numberline {2.3}}{11}
+\contentsline {chapter}{REFERENCES}{13}
+\contentsline {chapter}{APPENDICES}{15}
+\contentsline {section}{APPENDIX~~A~~~Generated Dataset}{17}
+\contentsline {chapter}{RESEARCH PUBLICATIONS}{21}
+\contentsline {chapter}{VITAE}{29}
+\contentsfinish 
